@@ -22,7 +22,7 @@ public class WebConfig {
                                 "http://127.0.0.1:5500",
                                 "http://localhost:5173",
                                 "http://127.0.0.1:5173",
-                                "smart-warehouse-inventory-system.vercel.app"
+                                "https://smart-warehouse-inventory-system.vercel.app"
                         )
                         .allowedMethods(
                                 "GET",
@@ -32,7 +32,8 @@ public class WebConfig {
                                 "DELETE",
                                 "OPTIONS"
                         )
-                        .allowedHeaders("*");
+                        .allowedHeaders("*")
+                        .allowCredentials(false);
             }
         };
     }
