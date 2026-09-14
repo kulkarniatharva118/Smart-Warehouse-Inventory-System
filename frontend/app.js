@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/products";
+const API_URL = "https://smart-warehouse-inventory-system.onrender.com/products";
 
 const productsTableBody = document.getElementById("productsTableBody");
 const message = document.getElementById("message");
